@@ -1,9 +1,8 @@
 <?php
 
 use App\Http\Controllers\EventController;
-use Illuminate\Support\Facades\Route;
 use App\Models\User;
-use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\{Auth, Route};
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -52,10 +51,10 @@ Route::get('/auth/{provider}/callback', function (string $provider) {
     $user = User::updateOrCreate([
         'name' => $providerUser->name,
     ], [
-        'provider_id' => $providerUser->getId(),
-        'email' => $providerUser->getEmail(),
+        'provider_id'     => $providerUser->getId(),
+        'email'           => $providerUser->getEmail(),
         'provider_avatar' => $providerUser->getAvatar(),
-        'provider_name' => $provider,
+        'provider_name'   => $provider,
     ]);
 
     Auth::login($user);
