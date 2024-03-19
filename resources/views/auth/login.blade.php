@@ -68,7 +68,7 @@
                     Github
                 </a>
                 <a href="/auth/google/redirect"
-                    class="inline-flex items-center px-4 py-2 text-center text-white bg-blue-500 rounded hover:bg-blue-700">
+                    class="inline-flex items-center px-4 py-2 text-center text-white bg-red-500 rounded hover:bg-blue-700">
                     <i class="fab fa-google fa-lg mr-2"></i> 
                     Google
                 </a>

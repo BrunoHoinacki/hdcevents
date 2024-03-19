@@ -28,7 +28,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="collapse navbar-collapse" id="navbar">
                 <a href="/" class="navbar-brand">
-                    <img src="/images/hdcevents_logo.svg" alt="">
+                    <img src="/images/gifs/logo.gif" alt="">
                 </a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
